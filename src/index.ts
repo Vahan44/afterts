@@ -1,8 +1,7 @@
-import {hello} from './test'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-hello('OK')
-
-const root = document.getElementById('root')
-
-root.innerHTML = 'Webpack'
-root.className = "root"
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <div>react</div>
+);
